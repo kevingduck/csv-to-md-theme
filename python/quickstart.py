@@ -33,6 +33,8 @@ def main():
 
     # Set up dataframe
     d = pd.DataFrame(values)
+    for row in d[1:].iterrows():
+        generatePage(row)
 
     if not values:
         print('No data found.')
@@ -40,14 +42,25 @@ def main():
         print ('Got data from sheet:')
         for row in values:
             # Print columns A and E, which correspond to indices 0 and 4.
-            print(row)
+            # print(row)
+            continue
 
 def exportToFile(data):
-    with open('output1.txt', 'a') as the_file:
-        the_file.write("This is the CSV Output: \n\n")
-        the_file.write(data)
-        the_file.write("\n ############################## \n This is the Pretty JSON Output: \n\n")
-        the_file.write(json.dumps(data))
+    with open((data[0] + '.txt'), 'a') as the_file:
+        the_file.write(str(data))
+
+def generatePage(page):
+  business_name = str(page[1][1])
+  contact_phone = str(page[1][2])
+  contact_email = str(page[1][3])
+  business_address = str(page[1][4])
+  tagline = str(page[1][5])
+  output = [business_name, contact_phone, contact_email, business_address, tagline]
+  # Assemble components on page and arrange them in markdown format
+  # Exports MD file with items populated from input form
+  exportToFile(output)
+
+
 
 if __name__ == '__main__':
     main()

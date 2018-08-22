@@ -1,0 +1,1 @@
+['Humboldt Medical Center', '410-381-2993', 'contact@humboldtmedicalcenter.org', '37 Black Forest Rd. Westphalia, Germany, 10020', 'Healing People']
