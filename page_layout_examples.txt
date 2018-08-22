@@ -1,0 +1,144 @@
+name of organization
+Contact number
+contact email
+Org address
+Tagline
+Colors you like
+Logo
+
+
+---
+Title: {{business-name}}
+---
+# {{business-name}}
+## {{tagline}}
+
+{{business-description}}
+
+> {{competitive-advantage}}
+
+{{ specialty }}
+
+## {{call-to-action}}
+
+{{business-number}}
+{{business-address}}
+{{contact-email}}
+
+
+
+---
+Title: {{business-name}} Products/ Services
+---
+# {{business-name}} | Products & Services
+## {{ specialty }}
+* pr1
+* pr1-desc
+* pr2
+* pr2-desc
+* pr3
+* pr3-desc
+* pr4
+* pr4-desc
+
+## {{call-to-action}}
+
+{{business-number}}
+{{business-address}}
+{{contact-email}}
+
+
+
+
+
+
+
+---
+Title: Contact {{business-name}}
+---
+# Contact {{business-name}}
+
+[Call {{business-number}}](tel:{{business-number}})
+[Email Us](mailto:{{contact-email}})
+{{business-address}}
+
+## {{call-to-action}}
+
+
+
+
+
+
+
+---
+Title: {{business-name}} Testimonials
+---
+# {{business-name}} Testimonials
+
+> {{customer-name}}'s Review
+  {{review}}
+
+
+## {{call-to-action}}
+
+
+[Call {{business-number}}](tel:{{business-number}})
+[Email Us](mailto:{{contact-email}})
+{{business-address}}
+
+
+
+
+
+
+
+
+
+---
+Title: {{business-name}} Blog
+---
+# {{business-name}} Blog
+### {{blog-desc}}
+
+#### {{blog-title}}
+{{blog-post-author}}
+{{blog-post-content}}
+
+
+
+
+
+
+
+
+About page?
+- Tell us about your organization
+
+Products/ services page?
+- What do you specialize in?
+- First Product/ Service
+-- Name
+-- Description
+- Second, etc. Product/ Service
+-- Name
+-- Description
+
+Contact page?
+- Call to action
+- Form?
+-- Name
+-- Email
+-- Phone
+-- Message
+
+Testimonials/ Reviews?
+- Name of reviewer
+- Review
+
+Blog?
+- Blog page description (e.g., "Check out our latest updates")
+- blog post
+-- Title
+-- Author
+-- Content
+

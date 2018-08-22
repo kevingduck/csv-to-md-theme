@@ -1,4 +1,6 @@
-# Fill out a form and generate a Website.
+# Demo pages
+
+# Websites generated from form
 
 Raw CSV to JSON data below collected from form.
 ```
@@ -69,24 +71,3 @@ Raw CSV to JSON data below collected from form.
   }
 ]
 ```
-
-
-
-# Demo Home page
-
-Website pages are populated from the form data. Editing the content afterwards is easy.
-
----
----
-# { { Name of Organization } }
-## { { Tagline } }
-
-### { { Contact number } }
-### { { Contact email } }
-### { { BusinessAddress } }
----
-> { { Call to action } }
-
-We specialize in { { Organization Specialty } }. View Our [Services](/) or [Contact Us Now](/).
-
-{ { Tell us about your organization } }
