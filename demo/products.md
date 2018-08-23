@@ -4,7 +4,10 @@ title: Products & Services
 <div v-for="item of myJson">
   <h1>{{ item['business-name'] }}</h1>
   <h2>{{ item['tagline'] }}</h2>
-  <h4>{{ item['specialty'] }}</h4>
+
+::: tip We specialize in {{ item['specialty'] }}
+We know {{ item['specialty'] }}. Check out our services below.
+:::
 
   > {{item['pr1']}}
 

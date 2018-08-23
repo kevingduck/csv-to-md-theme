@@ -5,11 +5,14 @@ title: Testimonials
   <h1>{{ item['business-name'] }}</h1>
   <h2>Testimonials from {{ item['business-name']}}'s customers</h2>
 
-  > {{ item['customer-name'] }} says: "{{ item['review'] }}"
+  {{ item['customer-name'] }} says:
+  > "{{ item['review'] }}"
 
-  > {{ item['customer-name'] }} says: "{{ item['review'] }}"
+  {{ item['customer-name'] }} says:
+  > "{{ item['review'] }}"
 
-  > {{ item['customer-name'] }} says: "{{ item['review'] }}"
+  {{ item['customer-name'] }} says:
+  > "{{ item['review'] }}"
 
   <h2>{{ item['call-to-action'] }}</h2>
 

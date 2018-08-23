@@ -4,9 +4,16 @@ title: About
 <div v-for="item of myJson">
   <h1>{{ item['business-name'] }}</h1>
   <h2>{{ item['tagline'] }}</h2>
-  <h4>{{ item['specialty'] }}</h4>
+
+  ::: tip Specialists in {{ item['specialty'] }}
+  <span> </span>
+  :::
 
   <span>{{ item['competitive-advantage'] }}</span>
+
+  ::: warning Check out what our customers have to say
+  <span> {{ item['review'] }}</span>
+  :::
 
   <p>{{ item['business-description'] }}</p>
 
