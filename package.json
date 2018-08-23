@@ -11,6 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "googleapis": "^27.0.0",
+    "vue-resource": "^1.5.1",
     "vuepress": "^0.8.4"
   }
 }

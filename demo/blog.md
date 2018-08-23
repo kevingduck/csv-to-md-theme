@@ -1,18 +1,28 @@
 ---
-title: ((business-name)) Blog
+title: Blog
 ---
-# ((business-name)) Blog
-### ((blog-desc))
+<div v-for="item of myJson">
+  <h1>{{ item['business-name'] }}</h1>
+  <h3>{{ item['blog-desc'] }}</h3>
 
----
-### ((blog-title))
-#### ((blog-post-author))
-((blog-post-content))
+  <h3>{{ item['blog-title']}}</h3>
+  <h4>By {{ item['blog-post-author'] }}</h4>
+  <p>{{ item['blog-post-content']}}</p>
+</div>
 
-### ((blog-title))
-#### ((blog-post-author))
-((blog-post-content))
+<script>
+  import json from './data.json'
 
-### ((blog-title))
-#### ((blog-post-author))
-((blog-post-content))
+  export default {
+    data () {
+      return {
+        myJson: json,
+      };
+    },
+    methods: {
+      downloadForm () {
+        console.log('downloading Form ...');
+      }
+    }
+  }
+</script>

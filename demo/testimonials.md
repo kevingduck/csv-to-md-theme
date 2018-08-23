@@ -1,23 +1,34 @@
 ---
-title: ((business-name)) Testimonials
+title: Testimonials
 ---
-# ((business-name)) Testimonials
+<div v-for="item in myJson">
+  <h1>{{ item['business-name'] }}</h1>
+  <h2>Testimonials from {{ item['business-name']}}'s customers</h2>
 
-#### ((customer-name))'s Review
-> ((review))
+  > {{ item['customer-name'] }} says: "{{ item['review'] }}"
 
-#### ((customer-name))'s Review
-> ((review))
+  > {{ item['customer-name'] }} says: "{{ item['review'] }}"
 
-#### ((customer-name))'s Review
-> ((review))
+  > {{ item['customer-name'] }} says: "{{ item['review'] }}"
 
+  <h2>{{ item['call-to-action'] }}</h2>
 
-## ((call-to-action))
+  [ {{ item['contact-number'] }} ](tel:{{item['contact-number']}}) <!--fix-->
 
+  [ {{ item['contact-email'] }} ](mailto:{{item['contact-email']}}) <!--fix-->
 
-[Call ((business-number))](tel:((business-number)))
+  <p>{{ item['business-address'] }}</p>
 
-[Email Us](mailto:((contact-email)))
+</div>
 
-((business-address))
+<script>
+  import json from './data.json'
+
+  export default {
+    data () {
+      return {
+        myJson: json,
+      };
+    },
+  }
+</script>

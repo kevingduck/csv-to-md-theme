@@ -1,17 +1,39 @@
 ---
-Title: ((business-name))
+title: About
 ---
-# ((business-name))
-## ((tagline))
+<div v-for="item of myJson">
+  <h1>{{ item['business-name'] }}</h1>
+  <h2>{{ item['tagline'] }}</h2>
+  <h4>{{ item['specialty'] }}</h4>
 
-> ((competitive-advantage))
+  <span>{{ item['competitive-advantage'] }}</span>
 
-((business-description))
+  <p>{{ item['business-description'] }}</p>
 
-(( specialty ))
+  > {{ item['call-to-action'] }}
 
-## ((call-to-action))
+  <p>{{ item['contact-number'] }}</p>
 
-((business-number))
-((business-address))
-((contact-email))
+  <p>{{ item['contact-email'] }}</p>
+
+  <p>{{ item['business-address'] }}</p>
+</div>
+
+<button v-on:click=downloadForm()>Click to get form data</button>
+
+<script>
+  import json from './data.json'
+
+  export default {
+    data () {
+      return {
+        myJson: json,
+      };
+    },
+    methods: {
+      downloadForm () {
+        console.log('downloading Form ...');
+      }
+    }
+  }
+</script>

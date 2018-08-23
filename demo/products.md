@@ -1,27 +1,44 @@
 ---
-Title: ((business-name)) Products/ Services
+title: Products & Services
 ---
-# ((business-name)) | Products & Services
-## (( specialty ))
-> pr1
+<div v-for="item of myJson">
+  <h1>{{ item['business-name'] }}</h1>
+  <h2>{{ item['tagline'] }}</h2>
+  <h4>{{ item['specialty'] }}</h4>
 
-  pr1-desc
+  > {{item['pr1']}}
 
-> pr2
+  {{item['pr1-desc']}}
 
-  pr2-desc
+  > {{item['pr2']}}
 
-> pr3
+  {{item['pr2-desc']}}
 
-  pr3-desc
+  > {{item['pr3']}}
 
-> pr4
+  {{item['pr3-desc']}}
 
-  pr4-desc
+  > {{item['pr4']}}
 
-## ((call-to-action))
+  {{item['pr4-desc']}}
 
-[Call now](((business-number)))
+  > {{ item['call-to-action'] }}
 
-((business-address))
-((contact-email))
+  [ {{ item['contact-number'] }} ](tel:{{item['contact-number']}}) <!--fix-->
+
+  [ {{ item['contact-email'] }} ](mailto:{{item['contact-email']}}) <!--fix-->
+
+  <p>{{ item['business-address'] }}</p>
+</div>
+
+<script>
+  import json from './data.json'
+
+  export default {
+    data() {
+      return {
+        myJson: json,
+      };
+    },
+  }
+</script>
