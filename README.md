@@ -34,6 +34,7 @@ Try Facebook Ads & Google Ads to reach new clients and grow your business. Setup
     <li><input type="text" placeholder="Business address"></li>
     <li><input type="text" placeholder="Business specialty"></li>
     <li><input type="text" placeholder="Business Description"></li>
+    <li>List Your Products/ Services:</li>
     <li><input type="text" placeholder="Product 1"></li>
     <li><input type="text" placeholder="Product 1 description"></li>
     <li><input type="text" placeholder="Product 2"></li>
@@ -46,7 +47,8 @@ Try Facebook Ads & Google Ads to reach new clients and grow your business. Setup
 
 <style>
   form input {
-      width:50vw;
+    font-size: 16px;
+      width:48vw;
       height:20px;
   }
   li {
