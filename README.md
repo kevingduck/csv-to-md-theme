@@ -22,7 +22,7 @@ Try Facebook Ads & Google Ads to reach new clients and grow your business. Setup
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeoEK4NyL1SRdwlnlr59ixEFHipg6pfRrFTwDyxpix5dKYhPA/viewform?embedded=true" width="700" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 -->
 
-<form name="new-website" method="POST" action="/success.html" netlify>
+<form name="new-website" action="/success.html" netlify>
   <ul style="list-style:none">
     <li>Your Contact Info:</li>
     <li><input type="text" name="submitter-email" placeholder="Your contact email (link will be sent to this email address)"></li>
