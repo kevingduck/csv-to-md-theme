@@ -31,16 +31,16 @@ Try Facebook Ads & Google Ads to reach new clients and grow your business. Setup
     <li><input type="text" placeholder="Tagline"></li>
     <li><input type="text" placeholder="Business Contact Phone Number"></li>
     <li><input type="text" placeholder="Business Contact email address"></li>
-    <li><input type="text" placeholder="Business address"></li>
-    <li><input type="text" placeholder="Business specialty"></li>
+    <li><input type="text" placeholder="Business Address"></li>
+    <li><input type="text" placeholder="Business Specialty"></li>
     <li><input type="text" placeholder="Business Description"></li>
     <li>List Your Products/ Services:</li>
     <li><input type="text" placeholder="Product 1"></li>
-    <li><input type="text" placeholder="Product 1 description"></li>
+    <li><input type="text" placeholder="Product 1 Description"></li>
     <li><input type="text" placeholder="Product 2"></li>
-    <li><input type="text" placeholder="Product 2 description"></li>
+    <li><input type="text" placeholder="Product 2 Description"></li>
     <li><input type="text" placeholder="Product 3"></li>
-    <li><input type="text" placeholder="Product 3 description"></li>
+    <li><input type="text" placeholder="Product 3 Description"></li>
     <li><button type="button" onclick="alert('Generating ... Check your email for a link to your new site.')">Generate site</button></li>
   </ul>
 </form>
