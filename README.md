@@ -3,9 +3,7 @@ title: Form To Site | Fast Website Generator | Templated Websites | Custom Websi
 ---
 
 # Fill out this form. Generate a website.
-### Get your business online with a fast, customizable SEO-friendly website with all the tools built in that you need to grow your business.
-
-It's easy:
+### Get your business online with a fast, customizable SEO-friendly website with all the tools built in that you need to grow your business. It's easy:
 
 1. Fill out this form with as much information as you can.
 2. Check your email for a link to your website.
@@ -23,36 +21,42 @@ Try Facebook Ads & Google Ads to reach new clients and grow your business. Setup
 <!--
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeoEK4NyL1SRdwlnlr59ixEFHipg6pfRrFTwDyxpix5dKYhPA/viewform?embedded=true" width="700" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 -->
-
-<form>
+<form name="new-website" method="POST" netlify>
   <ul style="list-style:none">
-    <li><input type="text" placeholder="Your contact email (link will be sent to this email address)"></li>
-    <li><input type="text" placeholder="Business Name"></li>
-    <li><input type="text" placeholder="Tagline"></li>
-    <li><input type="text" placeholder="Business Contact Phone Number"></li>
-    <li><input type="text" placeholder="Business Contact email address"></li>
-    <li><input type="text" placeholder="Business Address"></li>
-    <li><input type="text" placeholder="Business Specialty"></li>
-    <li><input type="text" placeholder="Business Description"></li>
+    <li>Your Contact Info:</li>
+    <li><input type="text" name="submitter-email" placeholder="Your contact email (link will be sent to this email address)"></li>
+    <li>Your Business's Info:</li>
+    <li><input type="text" name="business-name" placeholder="Business Name"></li>
+    <li><input type="text" name="tagline" placeholder="Tagline"></li>
+    <li><input type="text" name="contact-number" placeholder="Business Contact Phone Number"></li>
+    <li><input type="text" pname="contact-email" laceholder="Business Contact Email Address"></li>
+    <li><input type="text" name="business-address" placeholder="Business Address"></li>
+    <li><input type="text" name="specialty" placeholder="Business Specialty"></li>
+    <li><input type="text" name="business-description" placeholder="Business Description"></li>
     <li>List Your Products/ Services:</li>
-    <li><input type="text" placeholder="Product 1"></li>
-    <li><input type="text" placeholder="Product 1 Description"></li>
-    <li><input type="text" placeholder="Product 2"></li>
-    <li><input type="text" placeholder="Product 2 Description"></li>
-    <li><input type="text" placeholder="Product 3"></li>
-    <li><input type="text" placeholder="Product 3 Description"></li>
-    <li><button type="button" onclick="alert('Generating ... Check your email for a link to your new site.')">Generate site</button></li>
+    <li><input type="text" name="pr1" placeholder="Product 1"></li>
+    <li><input type="text" name="pr1-desc" placeholder="Product 1 Description"></li>
+    <li><input type="text" name="pr2" placeholder="Product 2"></li>
+    <li><input type="text" name="pr2-desc" placeholder="Product 2 Description"></li>
+    <li><input type="text" name="pr3" placeholder="Product 3"></li>
+    <li><input type="text" name="pr3-desc" placeholder="Product 3 Description"></li>
+    <li><button type="submit">Generate site</button></li>
   </ul>
 </form>
 
+
 <style>
+  form {
+    border: 1px solid grey;
+    border-radius: 10px;
+  }
   form input {
     font-size: 16px;
       width:48vw;
-      height:20px;
+      height:30px;
   }
   li {
-    margin-top:10px;
+    margin-top:15px;
   }
 </style>
 <script>
