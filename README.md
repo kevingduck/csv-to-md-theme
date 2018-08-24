@@ -29,7 +29,7 @@ Try Facebook Ads & Google Ads to reach new clients and grow your business. Setup
     <li><input type="text" name="business-name" placeholder="Business Name"></li>
     <li><input type="text" name="tagline" placeholder="Tagline"></li>
     <li><input type="text" name="contact-number" placeholder="Business Contact Phone Number"></li>
-    <li><input type="text" pname="contact-email" laceholder="Business Contact Email Address"></li>
+    <li><input type="text" pname="contact-email" placeholder="Business Contact Email Address"></li>
     <li><input type="text" name="business-address" placeholder="Business Address"></li>
     <li><input type="text" name="specialty" placeholder="Business Specialty"></li>
     <li><input type="text" name="business-description" placeholder="Business Description"></li>
