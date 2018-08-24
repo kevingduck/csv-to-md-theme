@@ -21,6 +21,7 @@ Try Facebook Ads & Google Ads to reach new clients and grow your business. Setup
 <!--
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeoEK4NyL1SRdwlnlr59ixEFHipg6pfRrFTwDyxpix5dKYhPA/viewform?embedded=true" width="700" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 -->
+
 <form name="new-website" method="POST" netlify>
   <ul style="list-style:none">
     <li>Your Contact Info:</li>
@@ -40,8 +41,8 @@ Try Facebook Ads & Google Ads to reach new clients and grow your business. Setup
     <li><input type="text" name="pr2-desc" placeholder="Product 2 Description"></li>
     <li><input type="text" name="pr3" placeholder="Product 3"></li>
     <li><input type="text" name="pr3-desc" placeholder="Product 3 Description"></li>
-    <li><button type="submit">Generate site</button></li>
   </ul>
+  <button type="submit">Generate site</button>
 </form>
 
 
@@ -52,11 +53,21 @@ Try Facebook Ads & Google Ads to reach new clients and grow your business. Setup
   }
   form input {
     font-size: 16px;
-      width:48vw;
-      height:30px;
+    width:90%;
+    height:30px;
   }
   li {
     margin-top:15px;
+  }
+  form button {
+    height:45px;
+    margin:20px;
+    width:80%;
+    border-radius: 40px;
+    background-color: lightgreen;
+    font-size:18px;
+    font-weight: 700;
+    /* margin-left:40%; */
   }
 </style>
 <script>
