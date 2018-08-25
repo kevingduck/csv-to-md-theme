@@ -1,5 +1,6 @@
 // .vuepress/config.js
 module.exports = {
+  title: 'FormToSite',
   themeConfig: {
     search: false,
     nav: [
