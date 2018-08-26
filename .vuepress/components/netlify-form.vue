@@ -1,18 +1,18 @@
 <template>
-<form name='contact-form'>
+<form name='new_site'>
   <p>
     <label>
-      Your Contact Email (link will be sent to this email address): <input type="email" name="submitter_email" v-model="form.submitter_email" />
+      Your Name: <input type="text" name="name" v-model="form.name" />
     </label>
   </p>
   <p>
     <label>
-      Business Name <input type="text" name="business_name" v-model="form.business_name" />
+      Your Email: <input type="email" name="email" v-model="form.email" />
     </label>
   </p>
   <p>
     <label>
-      Tagline <input type="text" name="tagline" v-model="form.tagline" />
+      Message: <textarea name="message" v-model="form.message" />
     </label>
   </p>
   <p>
@@ -22,16 +22,14 @@
 </template>
 
 
-
-
 <script>
 export default {
   data() {
     return {
       form: {
-        business_name: '',
-        submitter_email: '',
-        tagline: '',
+        name: '',
+        email: '',
+        message: '',
       },
     };
   },
