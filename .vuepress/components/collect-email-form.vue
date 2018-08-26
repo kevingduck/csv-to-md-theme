@@ -8,7 +8,7 @@
     <input type="text" name="_replyto" placeholder="Email Address" />
   </ul>
   <p>
-    <button id="form-button" value="Generate site" type="submit">Check status</button>
+    <button id="form-button" value="Check status" type="submit">Check status</button>
   </p>
 </form>
 </template>

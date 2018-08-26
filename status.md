@@ -5,6 +5,8 @@
 You will receive an email with a link as soon as your site is finished building.
 
 ```
+Initializing build ... done.
+Gathering resources ... done.
 Generating content ...
 ```
 

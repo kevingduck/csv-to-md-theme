@@ -1,6 +1,6 @@
 # Success!
 
-<h1>Success! Your site is being generated.</h1>
+<h1>Your site is being generated.</h1>
 
 <h2>Check your email for a link.</h2>
 
