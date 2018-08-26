@@ -1,5 +1,5 @@
 <template>
-<form>
+<form name="myform">
   <p>
     <label>
       Your Name: <input type="text" name="name" v-model="form.name" />
