@@ -14,6 +14,7 @@ module.exports = {
       ]
     },
       { text: 'Advertise', link: '/advertise' },
+      { text: 'dev', link: '/go' },
     ]
   }
 }

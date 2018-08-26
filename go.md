@@ -2,7 +2,7 @@
 title: Share a Meme
 ---
 
-<form name="submitMeme" action="success.html" netlify>
+<form name="submitMeme" netlify>
   <p>
     <label>Name: <input type="text" name="name" size="40"></label>
   </p>
