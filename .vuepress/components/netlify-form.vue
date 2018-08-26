@@ -45,7 +45,7 @@ export default {
       fetch('/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: this.encode({ 'form-name': 'contact', ...this.form }),
+        body: this.encode({ 'form-name': 'newSiteRequest', ...this.form }),
       })
         .then(() => alert('Success!'))
         .catch(error => alert(error));
