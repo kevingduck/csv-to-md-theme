@@ -1,5 +1,5 @@
 <template>
-<form name="myform">
+<form name="myform" netlify>
   <p>
     <label>
       Your Name: <input type="text" name="name" v-model="form.name" />
