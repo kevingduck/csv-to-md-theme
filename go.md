@@ -4,5 +4,10 @@
 
 <h2>Check your email for a link.</h2>
 
-<span>Or check the status of your site by entering your email address:</span>
-<input type="text" placeholder="Email Address">
+::: warning
+It can take a few minutes for the email to come through.
+
+If you don't receive an email after 10 minutes, be sure to check your spam folder.
+:::
+
+<collect-email-form/>
