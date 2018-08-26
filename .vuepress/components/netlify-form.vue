@@ -1,5 +1,5 @@
 <template>
-  <form name="new-website" method="POST" action="/success.html" netlify>
+  <form name="new-website" method="POST" netlify>
     <ul style="list-style:none">
       <p>Your Contact Info:</p>
       <li><input type="text" name="submitter-email" placeholder="Your contact email (link will be sent to this email address)"></li>
@@ -19,6 +19,8 @@
       <li><input type="text" name="pr3" placeholder="Product 3"></li>
       <li><input type="text" name="pr3-desc" placeholder="Product 3 Description"></li>
     </ul>
-    <input id="form-button" value="Generate site" type="submit">
+    <p>
+      <button id="form-button" value="Generate site" type="submit">Generate site</button>
+    </p>
   </form>
 </template>
