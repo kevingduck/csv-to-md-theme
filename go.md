@@ -1,25 +1,20 @@
----
-title: Share a Meme
----
-
-<form name="submitMeme" netlify>
+<form name="contact" method="POST" netlify>
   <p>
-    <label>Name: <input type="text" name="name" size="40"></label>
+    <label>Your Name: <input type="text" name="name" /></label>
   </p>
   <p>
-    <label>Email: <input type="text" name="email" size="40"></label>
+    <label>Your Email: <input type="email" name="email" /></label>
   </p>
   <p>
-    <label>Meme URL: <input type="text" name="memeurl" size="40"></label>
+    <label>Your Role: <select name="role[]" multiple>
+      <option value="leader">Leader</option>
+      <option value="follower">Follower</option>
+    </select></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
   </p>
   <p>
     <button type="submit">Send</button>
-  </p>
-</form>
-
-
-<form name="submitMeme" netlify-honeypot="bot-field" action="/succes.html" netlify>
-  <p style="display:none;">
-    <label>Don’t fill this out: <input name="bot-field"></label>
   </p>
 </form>
