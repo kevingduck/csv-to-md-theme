@@ -1,9 +1,6 @@
 ---
-layout: page
 title: Share a Meme
-permalink: /memeform/
 ---
-
 
 <form name="submitMeme" action="/success.html" netlify>
   <p>
