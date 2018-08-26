@@ -1,5 +1,5 @@
 <template>
-<form name='new_site'>
+<form>
   <p>
     <label>
       Your Name: <input type="text" name="name" v-model="form.name" />
