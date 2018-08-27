@@ -1,1 +1,0 @@
-['business-name', 'contact-number', 'contact-email', 'business-address', 'tagline']

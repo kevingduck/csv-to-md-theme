@@ -10,8 +10,10 @@ Gathering resources ... done.
 Generating content ...
 ```
 
-<div class="w3-light-grey" style="margin-top:20px;">
-  <div class="w3-green w3-round" style="height:24px;width:25%"></div>
-</div><br>
-
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<div class="progress">
+  <div class="progress-bar progress-bar-striped active" role="progressbar"
+  aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+    Building ...
+  </div>
+</div>

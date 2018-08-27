@@ -4,26 +4,63 @@
     <input type="hidden" name="_next" value="/go.html" />
     <input type="hidden" name="_subject" value="New request to build a website!" />
     <input type="text" name="_gotcha" style="display:none" />
-    <p>Your Contact Info:</p>
-    <input type="text" name="_replyto" placeholder="Your email (the link to the new site will be sent to this email address)" />
-    <p>Your Business's Info:</p>
-    <li><input type="text" name="business-name" placeholder="Business Name"></li>
-    <li><input type="text" name="tagline" placeholder="Tagline"></li>
-    <li><input type="text" name="contact-number" placeholder="Business Contact Phone Number"></li>
-    <li><input type="text" pname="contact-email" placeholder="Business Contact Email Address"></li>
-    <li><input type="text" name="business-address" placeholder="Business Address"></li>
-    <li><input type="text" name="specialty" placeholder="Business Specialty"></li>
-    <li><input type="text" name="business-description" placeholder="Business Description"></li>
-    <p>List Your Products/ Services:</p>
-    <li><input type="text" name="pr1" placeholder="Product 1"></li>
-    <li><input type="text" name="pr1-desc" placeholder="Product 1 Description"></li>
-    <li><input type="text" name="pr2" placeholder="Product 2"></li>
-    <li><input type="text" name="pr2-desc" placeholder="Product 2 Description"></li>
-    <li><input type="text" name="pr3" placeholder="Product 3"></li>
-    <li><input type="text" name="pr3-desc" placeholder="Product 3 Description"></li>
+    <div class="submitter-info">
+      <h4>Your Contact Info:</h4>
+      <li><input type="text"  class="form-control" name="_replyto" placeholder="Your email (the link to the new site will be sent to this email address)" /></li>
+    </div>
+    <div class="business-info">
+      <h4>Your Business's Info:</h4>
+      <li><input type="text" class="form-control" name="business-name" placeholder="Business Name"></li>
+      <li><input type="text" class="form-control" name="tagline" placeholder="Tagline"></li>
+      <li><input type="text" class="form-control" name="contact-number" placeholder="Business Contact Phone Number"></li>
+      <li><input type="text" class="form-control" pname="contact-email" placeholder="Business Contact Email Address"></li>
+      <li><input type="text" class="form-control" name="business-address" placeholder="Business Address"></li>
+      <li><input type="text" class="form-control" name="specialty" placeholder="Business Specialty"></li>
+      <li><textarea rows="3" class="form-control" type="text" name="business-description" placeholder="Business Description"></textarea></li>
+    </div>
+    <div class="services">
+      <h4>List Your Business's Top Products/ Services:</h4>
+      <li><input type="text" class="form-control" name="pr1" placeholder="Product 1"></li>
+      <li><textarea rows="2" class="form-control" name="pr1-desc" placeholder="Product 1 Description"></textarea></li>
+      <li><input type="text" class="form-control" name="pr2" placeholder="Product 2"></li>
+      <li><textarea rows="2" class="form-control" name="pr2-desc" placeholder="Product 2 Description"></textarea></li>
+      <li><input type="text" class="form-control" name="pr3" placeholder="Product 3"></li>
+      <li><textarea rows="2" class="form-control" name="pr3-desc" placeholder="Product 3 Description"></textarea></li>
+    </div>
   </ul>
-  <p>
-    <button id="form-button" value="Generate site" type="submit">Generate site</button>
+  <p style="margin:10px;">
+    <button class="btn btn-success btn-block" type="submit">Generate Site</button>
   </p>
 </form>
 </template>
+<style>
+.submitter-info {
+  margin:10px;
+  padding:10px;
+  background-color: lightblue;
+  }
+  .business-info {
+    margin:10px;
+    padding:10px;
+    background-color: lightgreen;
+  }
+
+  .services {
+    margin:10px;
+    padding:10px;
+    background-color: lightblue;
+  }
+
+
+  form input {
+    font-size: 16px;
+    width:90%;
+    height:30px;
+  }
+  li {
+    margin:15px;
+  }
+  form h4 {
+    margin:10px;
+  }
+</style>
