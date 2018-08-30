@@ -16,8 +16,3 @@ Check out the [Demo section](/demo/about.html) for an example website generated 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
 <netlify-form/>
-
-
-<!--
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeoEK4NyL1SRdwlnlr59ixEFHipg6pfRrFTwDyxpix5dKYhPA/viewform?embedded=true" width="700" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
--->
