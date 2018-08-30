@@ -1,6 +1,5 @@
 <template>
 <form name="new-website" action="https://formspree.io/tensorwebservices@gmail.com" method="POST" netlify>
-  <form name="new-website" id="new-website" netlify>
   <ul style="list-style:none">
     <input type="hidden" name="_next" value="/go.html" />
     <input type="hidden" name="_subject" value="New request to build a website!" />
